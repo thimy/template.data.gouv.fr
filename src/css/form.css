@@ -133,9 +133,24 @@ label.label-inline {
 
 .form__group {
   display: block;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
-.form__group + .form__group {
-  margin-top: 2em;
+.form__password {
+  position: relative;
+}
+
+.form__password input[type="password"] {
+  padding-right: 46px;
+}
+
+.form__password-toggle {
+  position: absolute;
+  background: url('images/icons/eye.svg') center center no-repeat;
+  right: 15px;
+  top: 14px;
+  height: 20px;
+  width: 20px;
+  background-size: 20px;
+  cursor: pointer;
 }

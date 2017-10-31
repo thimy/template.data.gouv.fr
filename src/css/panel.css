@@ -9,3 +9,6 @@
   margin-top: 0;
 }
 
+.panel p:last-child {
+  margin-bottom: 0;
+}
