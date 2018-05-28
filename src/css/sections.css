@@ -1,7 +1,7 @@
 section {
   padding: 5em 0;
   background-color: var(--theme-background-white);
-  color: var(--black);
+  color: var(--almost-black);
 }
 
 .section-grey {
@@ -11,12 +11,12 @@ section {
 
 .section-dark {
   background-color: var(--theme-background-dark);
-  color: #fff;
+  color: var(--white);
 }
 
 .section-color {
   background-color: var(--theme-background-color);
-  color: #fff;
+  color: var(--white);
 }
 
 .section__subtitle {
