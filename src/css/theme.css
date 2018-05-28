@@ -32,7 +32,7 @@
   --theme-background-grey: var(--lighter-grey);
   --theme-background-color: var(--blue);
   --theme-background-dark: var(--black);
-  --theme-box-shadow: var(--light-grey);
+  --theme-box-shadow: rgba(0, 0, 0, 0.3);
   --theme-label-text: var(--dark-grey);
   --theme-dark-text: var(--almost-black);
   --theme-success-border: var(--green);

@@ -1,6 +1,6 @@
 .navbar {
-  border-bottom: 1px solid var(--theme-box-shadow);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid var(--theme-border);
+  box-shadow: 0 1px 4px var(--theme-box-shadow);
   width: 100%;
   background: #fff;
   z-index: 100;
@@ -17,6 +17,8 @@
   flex-wrap: wrap;
   align-items: center;
   padding: 1em;
+  margin: auto;
+  max-width: 1000px;
 }
 
 .navbar__home {
